@@ -1,0 +1,25 @@
+﻿<Window x:Class="AnalyzerSE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Analyzer Module" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Upload Files for Analysis" FontSize="16" Margin="0,0,0,10" />
+            <Button Content="Upload Student Files" Name="btnUploadStudent" Click="UploadStudentFiles" />
+            <Button Content="Upload Custom Analyzer" Name="btnUploadAnalyzer" Click="UploadCustomAnalyzer" Margin="0,10,0,0" />
+            <TextBlock Text="Available Analyzers:" FontSize="14" Margin="0,20,0,5" />
+            <ListBox Name="lstAnalyzers" Height="150" Margin="0,10,0,0" ItemsSource="{Binding Analyzers}" SelectionMode="Multiple">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox IsChecked="{Binding IsSelected}" Content="{Binding Name}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button Content="Run Analysis" Name="btnRunAnalysis" Click="RunAnalysis" Margin="0,10,0,0" />
+            <TextBlock Text="Analysis Report:" FontSize="14" Margin="0,20,0,5" />
+            <TextBox Name="txtReport" Height="150" TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" />
+        </StackPanel>
+    </Grid>
+</Window>

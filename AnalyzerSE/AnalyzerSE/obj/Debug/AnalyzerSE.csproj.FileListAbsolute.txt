@@ -1,0 +1,14 @@
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\MainWindow.baml
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\MainWindow.g.cs
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\App.g.cs
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE_MarkupCompile.cache
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.g.resources
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.Properties.Resources.resources
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.csproj.GenerateResource.cache
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\bin\Debug\AnalyzerSE.exe.config
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\bin\Debug\AnalyzerSE.exe
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\bin\Debug\AnalyzerSE.pdb
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.exe
+C:\Users\student\source\repos\AnalyzerSE\AnalyzerSE\obj\Debug\AnalyzerSE.pdb
